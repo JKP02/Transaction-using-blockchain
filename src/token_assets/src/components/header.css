@@ -1,0 +1,116 @@
+:root {
+  --primary-color: #3498db; /* Your primary color */
+  --secondary-color: #ecf0f1; /* Your secondary color */
+  --text-color: #333; /* Your text color */
+  --box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Your box shadow */
+  --border-color: #ddd; /* Your border color */
+}
+
+.bg {
+  background-image: url('./img3.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 680px;
+  text-align: end;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.bgtext {
+  font-size: 55px;
+  color: #fff;
+}
+
+.card {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.card h1 {
+  color: var(--text-color);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card-item {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+  
+}
+
+.card-item-sub1 {
+  width: 250px;
+  background-image: url('./loan.jpg');
+  height: 250px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  object-fit: cover;
+  background-size: cover;
+  
+}
+
+.card-item-sub2 {
+  width: 250px;
+  background-image: url('./balance.jpg');
+  height: 250px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.card-item-sub3 {
+  width: 250px;
+  background-image: url('./transfer2.jpg');
+  height: 250px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.card-item-sub4 {
+  width: 250px;
+  background-image: url('./img5.jpg');
+  height: 250px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  object-fit: cover;
+  background-size: cover;
+}
+
+.card-item-sub:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}

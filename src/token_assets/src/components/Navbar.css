@@ -1,0 +1,65 @@
+/* Navbar.css */
+
+:root {
+  --navbar-bg: #333; /* Dark background color */
+  --navbar-text: #fff; /* White text color */
+  --navbar-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Drop shadow for depth */
+  --navbar-gradient-start: #3b5998;
+  --navbar-gradient-end: #00aced;
+  --link-color: #fff; /* Link text color */
+  --link-hover-color: underline; /* Link underline on hover */
+  --link-font-weight: bold; /* Bold text */
+  --link-font-size: 18px; /* Adjust font size */
+  --link-text-transform: uppercase; /* Uppercase text */
+  --link-letter-spacing: 1px; /* Letter spacing for style */
+  --link-hover-translateY: -3px; /* Lift link on hover */
+}
+
+.Navbar {
+  background-color: var(--navbar-bg);
+  color: var(--navbar-text);
+  padding: 10px;
+  box-shadow: var(--navbar-shadow);
+
+  /* Add a gradient background for a stylish look */
+  background: linear-gradient(90deg, var(--navbar-gradient-start), var(--navbar-gradient-end));
+}
+
+.Navbar span {
+  font-size: 24px;
+  margin-right: -5px;
+}
+
+.Navbar .HeadLogo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.App-header {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Align links to the right */
+}
+
+.App-header li {
+  margin: 0 20px; /* Add spacing between links */
+  transition: transform 0.2s; /* Smooth link hover effect */
+}
+
+.App-header li:hover {
+  transform: translateY(var(--link-hover-translateY)); /* Lift link on hover */
+}
+
+.App-header a {
+  text-decoration: none;
+  color: var(--link-color);
+  font-weight: var(--link-font-weight);
+  font-size: var(--link-font-size);
+  text-transform: var(--link-text-transform);
+  letter-spacing: var(--link-letter-spacing);
+}
+
+.App-header a:hover {
+  text-decoration: var(--link-hover-color); /* Underline on hover */
+}
